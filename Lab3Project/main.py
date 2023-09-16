@@ -2,7 +2,7 @@ from Translators.googleTransModule import *
 
 def main():
     text_to_translate = "Hello, how are you?"
-    translation_result = LanguageList("screen")
+    translation_result = LanguageList("file", text_to_translate)
     if translation_result == "Ok":
         print("Переклад завершено!")
     else:

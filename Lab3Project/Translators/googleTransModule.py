@@ -31,15 +31,16 @@ def LanguageList(out: str, text: str = None):
     try:
         translator = Translator()
         supported_languages = LANGUAGES
-        table = "Код\t\tМова\t\tПереклад"
+        table = "Код\t\tМова"
 
         if text:
-            table += "\tПереклад тексту"
+            table += "\t\tПереклад тексту"
 
         if out == "screen":
             print(table)
         elif out == "file":
-            pass
+            with open('translation.txt', 'w', encoding='utf-8') as file:
+                file.write(table + '\n')
         else:
             return "Невідомий параметр 'out'. Використовуйте 'screen' або 'file'."
 
@@ -53,7 +54,8 @@ def LanguageList(out: str, text: str = None):
             if out == "screen":
                 print(table_row)
             elif out == "file":
-                pass
+                with open('translation.txt', 'a', encoding='utf-8') as file:
+                    file.write(table_row + '\n')
 
         return 'Ok'
     except Exception as e:
