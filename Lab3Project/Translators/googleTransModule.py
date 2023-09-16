@@ -1,5 +1,6 @@
 from googletrans import Translator, LANGUAGES
 
+
 def TransLate(text: str, scr: str, dest: str) -> str:
     try:
         translation = Translator().translate(text, src=scr, dest=dest)

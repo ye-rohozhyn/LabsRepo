@@ -1,4 +1,4 @@
-from Translators.googleTransModule import *
+from Translators.deepTransModule import *
 
 def main():
     text_to_translate = "Hello, how are you?"

@@ -1,108 +1,134 @@
-Код		Мова		Переклад тексту
-af		afrikaans		Hello hoe gaan dit?
-sq		albanian		Pershendetje si jeni?
-am		amharic		ሰላም እንደምን አለህ?
-ar		arabic		مرحبا، كيف حالك؟
-hy		armenian		Բարեւ, ինչպես ես?
-az		azerbaijani		Salam necəsən?
-eu		basque		Kaixo zer moduz zaude?
-be		belarusian		Вітаю, як ты?
-bn		bengali		হ্যালো, আপনি কেমন আছেন?
-bs		bosnian		Zdravo, kako si?
-bg		bulgarian		Здравей, как си?
-ca		catalan		Hola com estàs?
-ceb		cebuano		Kumusta, kumusta ka?
-ny		chichewa		Moni muli bwanji?
-zh-cn		chinese (simplified)		你好吗？
-zh-tw		chinese (traditional)		你好嗎？
-co		corsican		Salute cumu stai?
-hr		croatian		Bok, kako si?
-cs		czech		Ahoj, jak se máš?
-da		danish		Hej, hvordan går det?
-nl		dutch		Hallo hoe is het?
-en		english		Hello, how are you?
-eo		esperanto		Saluton kiel vi fartas?
-et		estonian		Tere kuidas sul läheb?
-tl		filipino		Kumusta, kumusta ka?
-fi		finnish		Hei, kuinka voit?
-fr		french		Bonjour comment allez-vous?
-fy		frisian		Hoi, hoe giet it mei dy?
-gl		galician		Olá. Como estás?
-ka		georgian		Გამარჯობა როგორ ხარ?
-de		german		Hallo, wie geht es dir?
-el		greek		Γεια πώς είσαι?
-gu		gujarati		હેલો, તમે કેમ છો?
-ht		haitian creole		Bonjou koman ou ye?
-ha		hausa		Sannu, yaya kuke?
-haw		hawaiian		Aloha pehea ʻoe?
-iw		hebrew		שלום מה שלומך?
-he		hebrew		שלום מה שלומך?
-hi		hindi		नमस्ते, आप कैसे हैं?
-hmn		hmong		Nyob zoo, koj nyob li cas?
-hu		hungarian		Helló, hogy vagy?
-is		icelandic		Halló, hvernig hefurðu það?
-ig		igbo		Nnọọ, kedu ka ị mere?
-id		indonesian		Halo apa kabarmu?
-ga		irish		Dia duit, conas atá tú?
-it		italian		Ciao, come stai?
-ja		japanese		こんにちは お元気ですか？
-jw		javanese		Halo, piye kabare?
-kn		kannada		ಹಲೋ, ಹೇಗಿದ್ದೀರಾ?
-kk		kazakh		Сәлеметсіз бе қалайсыз?
-km		khmer		សួស្តី​តើ​អ្នក​សុខ​សប្បាយ​ទេ?
-ko		korean		안녕하세요. 어떻게 지내세요?
-ku		kurdish (kurmanji)		Hûn çawa ne?
-ky		kyrgyz		Салам кандайсың?
-lo		lao		ສະ​ບາຍ​ດີ​, ເຈົ້າ​ສະ​ບາຍ​ດີ​ບໍ່?
-la		latin		Salve, quam vos?
-lv		latvian		Sveiks kā tev iet?
-lt		lithuanian		Labas, kaip tau sekasi?
-lb		luxembourgish		Moien, wéi geet et?
-mk		macedonian		Здраво како си?
-mg		malagasy		Salama manao ahoana ny fahasalamanao?
-ms		malay		Helo, apa khabar?
-ml		malayalam		ഹലോ, നിങ്ങൾക്ക് സുഖമാണോ?
-mt		maltese		Hello kif int?
-mi		maori		Kia ora, kei te pēhea koe?
-mr		marathi		हॅलो, कसे आहात?
-mn		mongolian		Сайн уу, та сайн уу?
-my		myanmar (burmese)		ဟယ်လိုနေကောင်းလား?
-ne		nepali		नमस्ते, तिमीलाई कस्तो छ?
-no		norwegian		Hei, hvordan har du det?
-or		odia		ଶୁଣନ୍ତୁ ଆପଣ କେମିତି ଅଛନ୍ତି?
-ps		pashto		اسلام عليکم څنګه ياست؟
-fa		persian		سلام حال شما چطور؟
-pl		polish		Witam, jak się masz?
-pt		portuguese		Olá, como vai?
-pa		punjabi		ਹੈਲੋ ਤੁਸੀ ਕਿਵੇਂ ਹੋ?
-ro		romanian		Salut ce mai faci?
-ru		russian		Привет, как дела?
-sm		samoan		Talofa o a mai oe?
-gd		scots gaelic		Halo, ciamar a tha thu?
-sr		serbian		Здраво, како си?
-st		sesotho		Lumela u phela joang?
-sn		shona		Mhoro wakadii?
-sd		sindhi		سلام توهان ڪيئن آهيو؟
-si		sinhala		ආයුබෝවන් ඔයාට කොහොම ද?
-sk		slovak		Ahoj ako sa máš?
-sl		slovenian		Živjo kako si?
-so		somali		Salaan, sidee tahay?
-es		spanish		¿Hola, cómo estás?
-su		sundanese		Halo kumaha kabarna?
-sw		swahili		Halo, habari yako?
-sv		swedish		Hej hur mår du?
-tg		tajik		Салом, шумо чӣ хел?
-ta		tamil		வணக்கம் எப்படி இருக்கிறாய்?
-te		telugu		హలో, మీరు ఎలా ఉన్నారు?
-th		thai		สวัสดี สบายดีไหม?
-tr		turkish		Nasılsın?
-uk		ukrainian		Привіт як ти?
-ur		urdu		ہیلو آپ کیسے ہیں؟
-ug		uyghur		ياخشىمۇسىز, ئەھۋالىڭىز قانداق?
-uz		uzbek		Salom qalaysiz?
-vi		vietnamese		Xin chào bạn khoẻ không?
-cy		welsh		Helo sut wyt ti?
-xh		xhosa		Molo unjani?
-yi		yiddish		א גוטן, ווי אזוי זענט איר?
-yo		yoruba		Pẹlẹ o bawo ni?
-zu		zulu		Sawubona Unjani?
+Мова		Код		Переклад тексту
+afrikaans		af		Hello hoe gaan dit?
+albanian		sq		Pershendetje si jeni?
+amharic		am		ሰላም እንደምን አለህ?
+arabic		ar		مرحبا، كيف حالك؟
+armenian		hy		Բարեւ, ինչպես ես?
+assamese		as		নমস্কাৰ আপুনি কেনে আছে?
+aymara		ay		Kamisaki?
+azerbaijani		az		Salam necəsən?
+bambara		bm		I ni ce, i ka kɛnɛ wa?
+basque		eu		Kaixo zer moduz zaude?
+belarusian		be		Вітаю, як ты?
+bengali		bn		হ্যালো, আপনি কেমন আছেন?
+bhojpuri		bho		राम राम, कईसन बाड़ऽ?
+bosnian		bs		Zdravo, kako si?
+bulgarian		bg		Здравей, как си?
+catalan		ca		Hola com estàs?
+cebuano		ceb		Hello, kumusta ka?
+chichewa		ny		Moni muli bwanji?
+chinese (simplified)		zh-CN		你好吗？
+chinese (traditional)		zh-TW		你好嗎？
+corsican		co		Salute cumu stai?
+croatian		hr		Bok, kako si?
+czech		cs		Ahoj, jak se máš?
+danish		da		Hej, hvordan går det?
+dhivehi		dv		އައްސަލާމް ޢަލައިކުމް ތިބާގެ ޙާލު ކިހިނެތް?
+dogri		doi		नमस्ते, केह् हाल-चाल ऐ?
+dutch		nl		Hallo hoe is het?
+english		en		Hello, how are you?
+esperanto		eo		Saluton kiel vi fartas?
+estonian		et		Tere kuidas sul läheb?
+ewe		ee		Hello efɔ̃a?
+filipino		tl		Hello, kamusta ka na?
+finnish		fi		Hei, kuinka voit?
+french		fr		Bonjour comment allez-vous?
+frisian		fy		Hoi, hoe giet it mei dy?
+galician		gl		Olá. Como estás?
+georgian		ka		Გამარჯობა როგორ ხარ?
+german		de		Hallo, wie geht es dir?
+greek		el		Γεια πώς είσαι?
+guarani		gn		Maitei mba'éichapa?
+gujarati		gu		હેલો, કેમ છો?
+haitian creole		ht		Bonjou koman ou ye?
+hausa		ha		Sannu, ya kuke?
+hawaiian		haw		Aloha pehea ʻoe?
+hebrew		iw		שלום מה שלומך?
+hindi		hi		नमस्ते, आप कैसे हैं?
+hmong		hmn		Nyob zoo, koj nyob li cas?
+hungarian		hu		Helló, hogy vagy?
+icelandic		is		Halló, hvernig hefurðu það?
+igbo		ig		Nnọọ, kedu ka ị mere?
+ilocano		ilo		Hello kumusta kan?
+indonesian		id		Halo apa kabarmu?
+irish		ga		Dia duit, conas atá tú?
+italian		it		Ciao, come stai?
+japanese		ja		こんにちは お元気ですか？
+javanese		jw		Halo, piye kabare?
+kannada		kn		ಹಲೋ, ಹೇಗಿದ್ದೀಯಾ?
+kazakh		kk		Сәлеметсіз бе қалайсыз?
+khmer		km		សួស្តី​តើ​អ្នក​សុខ​សប្បាយ​ទេ?
+kinyarwanda		rw		Mwaramutse, mumeze mute?
+konkani		gom		हॅलो कशे आसात तुमी?
+korean		ko		안녕하세요. 어떻게 지내세요?
+krio		kri		Adu-o, aw yu de du?
+kurdish (kurmanji)		ku		Hûn çawa ne?
+kurdish (sorani)		ckb		سڵاو چۆنیت?
+kyrgyz		ky		Салам кандайсың?
+lao		lo		ສະ​ບາຍ​ດີ​, ເຈົ້າ​ສະ​ບາຍ​ດີ​ບໍ່?
+latin		la		Salve, quam vos?
+latvian		lv		Sveiks kā tev iet?
+lingala		ln		Mbote boni?
+lithuanian		lt		Labas, kaip tau sekasi?
+luganda		lg		Nkulamusizaako, oli otya?
+luxembourgish		lb		Moien, wéi geet et?
+macedonian		mk		Здраво како си?
+maithili		mai		नमस्कार अहां कोना छी?
+malagasy		mg		Salama manao ahoana ny fahasalamanao?
+malay		ms		Hello, apa khabar?
+malayalam		ml		ഹലോ, നിങ്ങൾക്ക് സുഖമാണോ?
+maltese		mt		Hello kif int?
+maori		mi		Kia ora, kei te pehea koe?
+marathi		mr		नमस्कार, कसे आहात?
+meiteilon (manipuri)		mni-Mtei		ꯑꯗꯣꯝ ꯀꯝꯗꯧꯔꯤꯕꯒꯦ?
+mizo		lus		Chibai, i dam em?
+mongolian		mn		Сайн байна уу, сайн уу?
+myanmar		my		ဟယ်လိုနေကောင်းလား?
+nepali		ne		नमस्ते, कस्तो हुनुहुन्छ?
+norwegian		no		Hei, hvordan har du det?
+odia (oriya)		or		ଶୁଣନ୍ତୁ ଆପଣ କେମିତି ଅଛନ୍ତି?
+oromo		om		Akkam fayyaa keetii?
+pashto		ps		اسلام عليکم څنګه ياست؟
+persian		fa		سلام حال شما چطور؟
+polish		pl		Witam, jak się masz?
+portuguese		pt		Olá, como vai?
+punjabi		pa		ਹੈਲੋ ਤੁਸੀ ਕਿਵੇਂ ਹੋ?
+quechua		qu		Allinllachu, imaynallam?
+romanian		ro		Salut ce mai faci?
+russian		ru		Привет, как дела?
+samoan		sm		Talofa o a mai oe?
+sanskrit		sa		नमस्ते त्वं कथं असि?
+scots gaelic		gd		Halo, ciamar a tha thu?
+sepedi		nso		Thobela le kae?
+serbian		sr		Здраво, како си?
+sesotho		st		Lumela u phela joang?
+shona		sn		Mhoro wakadii?
+sindhi		sd		سلام توهان ڪيئن آهيو؟
+sinhala		si		ආයුබෝවන් ඔයාට කොහොම ද?
+slovak		sk		Ahoj ako sa máš?
+slovenian		sl		Živjo kako si?
+somali		so		salaan, sidee tahay
+spanish		es		¿Hola, cómo estás?
+sundanese		su		Halo kumaha kabarna?
+swahili		sw		Habari, habari?
+swedish		sv		Hej hur mår du?
+tajik		tg		Салом, шумо чӣ хел?
+tamil		ta		வணக்கம் எப்படி இருக்கிறாய்?
+tatar		tt		Сәлам, хәлләрең ничек?
+telugu		te		హలో, ఎలా ఉన్నారు?
+thai		th		สวัสดี สบายดีไหม?
+tigrinya		ti		ሰላም ከመይ ኣለኻ?
+tsonga		ts		Avuxeni ku njhani?
+turkish		tr		Nasılsın?
+turkmen		tk		Salam ýagdaýlaryň nähili?
+twi		ak		Hɛloo ɛte sɛn?
+ukrainian		uk		Привіт як ти?
+urdu		ur		ہیلو آپ کیسے ہیں؟
+uyghur		ug		ياخشىمۇسىز ، ئەھۋالىڭىز قانداق؟
+uzbek		uz		Salom qalaysiz?
+vietnamese		vi		Xin chào bạn khoẻ không?
+welsh		cy		Helo sut wyt ti?
+xhosa		xh		Molo unjani?
+yiddish		yi		א גוטן, ווי אזוי זענט איר?
+yoruba		yo		Pẹlẹ o bawo ni?
+zulu		zu		Sawubona Unjani?
