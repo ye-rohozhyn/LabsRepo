@@ -1,6 +1,4 @@
 from googletrans import Translator, LANGUAGES
-import pandas as pd
-from tabulate import tabulate
 
 def TransLate(text: str, scr: str, dest: str) -> str:
     try:
@@ -29,28 +27,34 @@ def CodeLang(lang: str) -> str:
         return str(e)
 
 
-def LanguageList(out="screen", text=None):
+def LanguageList(out: str, text: str = None):
     try:
-        languages = list(LANGUAGES.values())
-        codes = list(LANGUAGES.keys())
-
-        data = {"Language": languages, "ISO-639 code": codes}
+        translator = Translator()
+        supported_languages = LANGUAGES
+        table = "Код\t\tМова\t\tПереклад"
 
         if text:
-            translator = Translator()
-            translations = [translator.translate(text, dest=lang).text for lang in codes]
-            data["Text"] = translations
-
-        df = pd.DataFrame(data)
+            table += "\tПереклад тексту"
 
         if out == "screen":
-            print(tabulate(df, headers='keys', tablefmt='pretty', showindex=False))
-            return "Ok"
+            print(table)
         elif out == "file":
-            filename = "language_list_gtrans.txt"
-            df.to_csv(filename, index=False, sep='\t', encoding='utf-8')
-            return f"Table saved to file: {filename} \n Ok"
+            pass
         else:
-            return "Invalid 'out' parameter"
+            return "Невідомий параметр 'out'. Використовуйте 'screen' або 'file'."
+
+        for lang, code in supported_languages.items():
+            if text:
+                translation = translator.translate(text, src='en', dest=code)
+                table_row = f"{lang}\t\t{code}\t\t{translation.text}"
+            else:
+                table_row = f"{lang}\t\t{code}"
+
+            if out == "screen":
+                print(table_row)
+            elif out == "file":
+                pass
+
+        return 'Ok'
     except Exception as e:
-        return f"Error: {e}"
+        return f"Помилка: {e}"
