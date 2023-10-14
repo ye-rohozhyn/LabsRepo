@@ -1,16 +1,19 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import re
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def read_first_sentence(file_path):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            text = file.read()
+            first_sentence = re.split(r'[.!?]', text)[0].strip()
+            print("Перше речення:")
+            print(first_sentence)
+            return first_sentence
+    except FileNotFoundError:
+        print("Помилка: Файл не знайдено.")
+        return None
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    file_path = 'text_file.txt'
+    read_first_sentence(file_path)
