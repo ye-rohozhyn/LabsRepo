@@ -1,0 +1,13 @@
+version: '3'
+services:
+  db:
+    image: mysql:latest
+    container_name: ford_db_container
+    ports:
+      - "5432:5432" 
+    environment:
+      POSTGRES_DB: ford_db 
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin 
+    volumes:
+      - ./data:/var/lib/postgresql/data
