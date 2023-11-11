@@ -17,12 +17,12 @@ def calculate_averages(array, a, b):
     return average_before_a, average_between_a_b, average_after_b
 
 
-def visualize_averages(array, a, b):
+def visualize_averages(array, a, b, averages):
     plt.plot(array, label='Array')
 
-    plt.fill_between(np.arange(0, len(array)), np.min(array), a, color='lightgreen', alpha=0.3, label='Before a')
-    plt.fill_between(np.arange(0, len(array)), a, b, color='lightblue', alpha=0.3, label='Between a and b')
-    plt.fill_between(np.arange(0, len(array)), b, np.max(array), color='lightcoral', alpha=0.3, label='After b')
+    plt.scatter(a, array[a], color='blue', label=f'Before a: {averages[0]}')
+    plt.scatter(b, array[b], color='orange', label=f'Between a and b: {averages[1]}')
+    plt.scatter(len(array) - 1, array[-1], color='purple', label=f'After b: {averages[2]}')
 
     plt.xlabel('Index')
     plt.ylabel('Value')
@@ -43,4 +43,4 @@ print(f"Before a: {averages[0]}")
 print(f"Between a and b: {averages[1]}")
 print(f"After b: {averages[2]}")
 
-visualize_averages(result_array, a_value, b_value)
+visualize_averages(result_array, a_value, b_value, averages)
