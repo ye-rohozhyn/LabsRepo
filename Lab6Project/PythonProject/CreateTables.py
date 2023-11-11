@@ -2,6 +2,16 @@ import pymysql.cursors
 
 connection = pymysql.connect(db='ford_db', user='admin', passwd='admin', host='localhost', port=3333)
 
+
+def try_execute_query(query: str):
+    try:
+        cursor.execute(query)
+        connection.commit()
+        print("Query execute successful!")
+    except Exception as e:
+        print(f"An error occurred: {str(e)}")
+
+
 with connection:
     cursor = connection.cursor()
 
@@ -37,8 +47,8 @@ with connection:
     )
     """
 
-    cursor.execute(create_clients_table_query)
-    cursor.execute(create_cars_table_query)
-    cursor.execute(create_repairs_table_query)
+    try_execute_query(create_clients_table_query)
+    try_execute_query(create_cars_table_query)
+    try_execute_query(create_repairs_table_query)
 
     cursor.close()
