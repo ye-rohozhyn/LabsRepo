@@ -5,25 +5,101 @@
     <title>Project Information</title>
 </head>
 <body>
-    <h1>Clients</h1>
-    <ul>
+    <style>
+        .full-name{
+            font-style: italic;
+            color: #ffcc00;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: #fff;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #fff;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #fff;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #444;
+            font-weight: bold;
+        }
+
+    </style>
+
+    <h1>Лабораторна робота #8</h1>
+    <p><em><span class="full-name">Рогожин Євген Сергійович, КН-20002б</span></em></p>
+
+    <h2>Клієнти</h2>
+    <table border="1">
+        <tr>
+            <th><strong>Client Company</strong></th>
+            <th><strong>Checking Account</strong></th>
+            <th><strong>Phone Number</strong></th>
+            <th><strong>Contact Person</strong></th>
+            <th><strong>Address</strong></th>
+        </tr>
         {% for c in client %}
-            <li>{{ c.ClientCompany }} - {{ c.Address }}</li>
+            <tr>
+                <td>{{ c.ClientCompany }}</td>
+                <td>{{ c.CheckingAccount }}</td>
+                <td>{{ c.PhoneNumber }}</td>
+                <td>{{ c.ContactPerson }}</td>
+                <td>{{ c.Address }}</td>
+            </tr>
         {% endfor %}
-    </ul>
+    </table>
 
-    <h1>Cars</h1>
-    <ul>
+    <h2>Автомобілі</h2>
+    <table border="1">
+        <tr>
+            <th><strong>Car Brand</strong></th>
+            <th><strong>Car Price</strong></th>
+            <th><strong>Client</strong></th>
+        </tr>
         {% for c in car %}
-            <li>{{ c.CarBrand }} - ${{ c.CarPrice }}</li>
+            <tr>
+                <td>{{ c.CarBrand }}</td>
+                <td>${{ c.CarPrice }}</td>
+                <td>{{ c.Client.ClientCompany }}</td>
+            </tr>
         {% endfor %}
-    </ul>
+    </table>
 
-    <h1>Repairs</h1>
-    <ul>
+    <h2>Ремонти</h2>
+    <table border="1">
+        <tr>
+            <th><strong>Start Date</strong></th>
+            <th><strong>Car</strong></th>
+            <th><strong>Repair Type</strong></th>
+            <th><strong>One Hour Price</strong></th>
+            <th><strong>Discount</strong></th>
+            <th><strong>Hours</strong></th>
+        </tr>
         {% for r in repair %}
-            <li>{{ r.RepairType }} for {{ r.Car.CarBrand }} - {{ r.StartDate }}</li>
+            <tr>
+                <td>{{ r.StartDate }}</td>
+                <td>{{ r.Car.CarBrand }}</td>
+                <td>{{ r.RepairType }}</td>
+                <td>${{ r.OneHourPrice }}</td>
+                <td>{{ r.Discount }}</td>
+                <td>{{ r.Hours }}</td>
+            </tr>
         {% endfor %}
-    </ul>
+    </table>
 </body>
 </html>
