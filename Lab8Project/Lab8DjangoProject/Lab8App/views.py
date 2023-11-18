@@ -7,4 +7,4 @@ def project_info(request):
     car = Car.objects.all()
     repair = Repair.objects.all()
 
-    return render(request, 'Lab8App/project_info.html', {'client': client, 'car': car, 'repair': repair})
+    return render(request, 'project_info.html', {'client': client, 'car': car, 'repair': repair})
