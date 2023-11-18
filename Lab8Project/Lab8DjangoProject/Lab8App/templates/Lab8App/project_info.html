@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Information</title>
+</head>
+<body>
+    <h1>Clients</h1>
+    <ul>
+        {% for c in client %}
+            <li>{{ c.ClientCompany }} - {{ c.Address }}</li>
+        {% endfor %}
+    </ul>
+
+    <h1>Cars</h1>
+    <ul>
+        {% for c in car %}
+            <li>{{ c.CarBrand }} - ${{ c.CarPrice }}</li>
+        {% endfor %}
+    </ul>
+
+    <h1>Repairs</h1>
+    <ul>
+        {% for r in repair %}
+            <li>{{ r.RepairType }} for {{ r.Car.CarBrand }} - {{ r.StartDate }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
